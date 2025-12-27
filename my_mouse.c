@@ -302,7 +302,6 @@ static const struct usb_device_id my_mouse_table[] = {
     { } /* terminating entry */
 };
 MODULE_DEVICE_TABLE(usb, my_mouse_table);
-
 static struct usb_driver my_mouse_driver = {
     .name = DRIVER_NAME,
     .id_table = my_mouse_table,

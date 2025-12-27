@@ -1,0 +1,1 @@
+savedcmd_/home/xeedo/LLD_N/My_mouse/my_mouse.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/xeedo/LLD_N/My_mouse/my_mouse.ko /home/xeedo/LLD_N/My_mouse/my_mouse.o /home/xeedo/LLD_N/My_mouse/my_mouse.mod.o
